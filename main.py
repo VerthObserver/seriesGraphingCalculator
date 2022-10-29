@@ -1,5 +1,4 @@
 
-from math import factorial as fact
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -20,14 +19,12 @@ print(f"\nSeries: {ser}")
 
 fig, (ax1, ax2) = plt.subplots(2)
 
-plt.suptitle("Series and sequences")
+plt.suptitle("Sequence and series")
 
 ax1.bar(n, seq, color='r')
 ax1.set_title("Sequence")
-ax1.title.set_color('r')
 
 ax2.bar(n, ser, color='b')
 ax2.set_title("Series")
-ax2.title.set_color('b')
 
 plt.show()
